@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Uploader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload a PDF File</h1>
+        <form id="uploadForm">
+            <input type="file" id="fileInput" name="file" accept=".pdf">
+            <button type="submit">Upload PDF</button>
+        </form>
+
+        <div id="status"></div>
+
+        <div id="pdf-viewer-container">
+            <h2>Your PDF Content</h2>
+            <div id="pdf-viewer"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
